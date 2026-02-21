@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Special Offer - Limited Time</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Limited time special offer. Get started today.">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 35px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Limited Time Special Offer</h1>
+    <p>
+        Discover our exclusive deal designed to help you get results fast.
+        Sign up today and take advantage of this opportunity.
+    </p>
+
+    <a href="#" class="cta-button" id="ctaButton">Get Started Now</a>
+</header>
+
+<footer>
+    © 2026 Your Company Name. All rights reserved.  
+    <br>
+    <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+</footer>
+
+<script>
+    document.getElementById("ctaButton").addEventListener("click", function(e) {
+        e.preventDefault();
+        alert("Thank you for your interest! Redirecting...");
+        // window.location.href = "https://your-offer-link.com";
+    });
+</script>
+
+</body>
+</html>
